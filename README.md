@@ -31,9 +31,11 @@ vaccination_portal/
 - React
 - React Router DOM
 - Axios
+  
 **Backend:**
 - Flask (Python)
 - Flask-CORS
+  
 **Database:**
 - PostgreSQL
 
