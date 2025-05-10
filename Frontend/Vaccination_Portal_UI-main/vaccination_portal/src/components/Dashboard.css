@@ -1,0 +1,57 @@
+/* Custom Styles for the Dashboard */
+.card {
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    color: #d63384;
+    font-weight: 600;
+  }
+  
+  .card-text {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  
+  .text-muted {
+    font-size: 0.9rem;
+    color: #6c757d;
+  }
+  
+  .list-group-item {
+    border: none;
+    padding: 8px 16px;
+  }
+  
+  .list-group-item:hover {
+    background-color: #f8f9fa;
+    cursor: pointer;
+  }
+  
+  .loading-spinner {
+    display: block;
+    margin: 20px auto;
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #d63384;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  

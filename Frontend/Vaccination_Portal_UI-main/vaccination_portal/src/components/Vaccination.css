@@ -1,0 +1,70 @@
+/* Form & Card Styling */
+.card {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+  }
+  
+  input.form-control {
+    border-radius: 8px;
+    font-size: 0.95rem;
+  }
+  
+  button.btn-primary {
+    padding: 8px 20px;
+    font-weight: 600;
+    border-radius: 8px;
+  }
+  
+  /* Table Styling */
+  .table {
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  
+  .table thead {
+    background-color: #f8f9fa;
+  }
+  
+  .table th,
+  .table td {
+    vertical-align: middle;
+    text-align: center;
+  }
+  
+  .table input {
+    width: 100%;
+    border: 1px solid #dee2e6;
+    border-radius: 6px;
+    padding: 4px 8px;
+  }
+  
+  /* Spinner Centering */
+  .spinner-border {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  
+  /* Action Buttons */
+  .btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+  }
+  
+  /* Status Text */
+  .text-muted {
+    font-size: 0.9rem;
+    font-style: italic;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .table th, .table td {
+      font-size: 0.9rem;
+      padding: 8px;
+    }
+  
+    input.form-control {
+      font-size: 0.85rem;
+    }
+  }
+  

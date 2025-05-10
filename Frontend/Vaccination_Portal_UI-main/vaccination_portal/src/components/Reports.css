@@ -1,0 +1,85 @@
+/* General Page Styling */
+.container {
+    background-color: #fff8f0; /* Soft pinkish background */
+    padding: 30px;
+    border-radius: 10px;
+  }
+  
+  h2 {
+    color: #d63384; /* Pink heading color */
+  }
+  
+  /* Dropdown and Button Styling */
+  .form-select {
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ff66b2;
+  }
+  
+  button {
+    background-color: #28a745; /* Green button */
+    color: white;
+    border-radius: 8px;
+    font-weight: bold;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #218838; /* Darker green on hover */
+  }
+  
+  /* Table Styling */
+  .table {
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid #ffb3c6;
+    background-color: #fff;
+  }
+  
+  .table-bordered {
+    border-collapse: collapse;
+  }
+  
+  .table-striped tbody tr:nth-child(odd) {
+    background-color: #f8f9fa;
+  }
+  
+  .table th, .table td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .table th {
+    background-color: #f2d4e0; /* Soft pink header */
+    color: #333;
+  }
+  
+  /* Alert Styling */
+  .alert {
+    margin-top: 20px;
+    border-radius: 8px;
+  }
+  
+  .alert-info {
+    background-color: #e3f2fd;
+    color: #1976d2;
+  }
+  
+  .alert-warning {
+    background-color: #fff3cd;
+    color: #856404;
+  }
+  
+  /* Responsive Table */
+  @media (max-width: 767px) {
+    .table-responsive {
+      overflow-x: auto;
+    }
+  
+    .form-select, button {
+      font-size: 0.9rem;
+    }
+  }
+  

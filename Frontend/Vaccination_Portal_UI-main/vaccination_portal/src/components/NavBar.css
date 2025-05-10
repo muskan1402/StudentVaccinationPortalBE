@@ -1,0 +1,70 @@
+/* NavBar Styling */
+.navbar {
+    background-color: #f8f9fa; /* Light background color for the navbar */
+    padding: 10px 20px;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #d63384; /* Pink color for the brand name */
+  }
+  
+  .navbar-nav .nav-item {
+    padding: 8px 15px;
+  }
+  
+  .navbar-nav .nav-link {
+    font-size: 1rem;
+    color: #495057;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    background-color: #e2e3ea; /* Light hover effect */
+  }
+  
+  .active-tab .nav-link {
+    font-weight: 700;
+    background-color: #d63384; /* Highlight the active tab with a pink background */
+    color: white;
+  }
+  
+  .logout-btn {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logout-btn .btn {
+    background-color: #ff4ddb; /* Red button for logout */
+    border: none;
+    padding: 8px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .logout-btn .btn:hover {
+    background-color: #ff1a1a; /* Darker red for hover effect */
+  }
+  
+  /* Responsive Navbar */
+  @media (max-width: 767px) {
+    .navbar-nav {
+      text-align: center;
+    }
+  
+    .navbar-nav .nav-item {
+      padding: 10px;
+    }
+  
+    .navbar-collapse {
+      flex-direction: column;
+    }
+  
+    .logout-btn {
+      margin-top: 15px;
+    }
+  }
+  

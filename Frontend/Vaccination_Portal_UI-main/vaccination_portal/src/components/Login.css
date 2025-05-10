@@ -1,0 +1,87 @@
+/* Global Styling */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Card Styling for Login Form */
+  .card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    border-radius: 12px;
+  }
+  
+  .card h3 {
+    color: #d63384; /* Pinkish color */
+    font-weight: 600;
+    font-size: 1.75rem;
+  }
+  
+  .card-body {
+    padding: 40px;
+  }
+  
+  /* Form Element Styling */
+  .form-label {
+    font-weight: bold;
+    color: #495057;
+  }
+  
+  .form-control {
+    border-radius: 8px;
+    border: 1px solid #dee2e6;
+    padding: 10px;
+    margin-top: 8px;
+  }
+  
+  .form-control:focus {
+    border-color: #d63384; /* Pink color for focus */
+    box-shadow: 0 0 8px rgba(214, 51, 132, 0.5); /* Pink glow effect */
+  }
+  
+  /* Button Styling */
+  .btn {
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 1rem;
+  }
+  
+  .btn-success {
+    background-color: #28a745; /* Green color */
+    border: none;
+  }
+  
+  .btn-success:disabled {
+    background-color: #6c757d; /* Disabled button state */
+  }
+  
+  .btn:hover {
+    transform: scale(1.05);
+  }
+  
+  .btn:active {
+    transform: scale(1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Error Message Styling */
+  .alert {
+    margin-bottom: 20px;
+    font-size: 1rem;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 767px) {
+    .card-body {
+      padding: 30px;
+    }
+  
+    .card {
+      width: 100%;
+    }
+  }
+  
