@@ -56,13 +56,13 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://username:password@localhos
 python app.py
 
 ## Frontend (React)
-1.Navigate to the React frontend directory:
+1. Navigate to the React frontend directory:
 cd vaccination_portal
-2.Install Node modules:
+2. Install Node modules:
 npm install
-3.Start the React app:
+3. Start the React app:
 npm start
-4.The app should now be available at:
+4. The app should now be available at:
 http://localhost:3000
 
 ## Testing (Frontend)
